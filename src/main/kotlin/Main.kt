@@ -22,7 +22,6 @@ fun arithmeticOperationWithCharacter(a:Double, b:Double, c:String):Double {
         "-" -> { a - b }
         "*" -> { a * b }
         "/" -> { a / b }
-        else -> {
-            println("You entered an invalid character"); 0.0 }
+        else -> { println("You entered an invalid character"); 0.0 }
     }
 }
